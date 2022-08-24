@@ -1,0 +1,16 @@
+PODS:
+  - lew999 (0.1.0)
+
+DEPENDENCIES:
+  - lew999 (from `../`)
+
+EXTERNAL SOURCES:
+  lew999:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  lew999: e725b2feaba3c74d85081b8570aa78023241d989
+
+PODFILE CHECKSUM: de6ff0f1a24c10f3edef233e12e2c6176040b002
+
+COCOAPODS: 1.11.2

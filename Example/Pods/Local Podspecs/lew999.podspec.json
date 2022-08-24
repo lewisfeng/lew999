@@ -1,0 +1,22 @@
+{
+  "name": "lew999",
+  "version": "0.1.0",
+  "summary": "A short description of lew999.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lewisfeng/lew999",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lewisfeng": "lewisfeng@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lewisfeng/lew999.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "lew999/Classes/**/*"
+}
