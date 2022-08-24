@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'lew999_Example' do
+  pod 'lew999', :path => '../'
+
+  target 'lew999_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
