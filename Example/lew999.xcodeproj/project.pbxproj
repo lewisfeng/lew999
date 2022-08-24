@@ -13,7 +13,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		AC9441DB28B6ED0F006A6632 /* JKL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9441DA28B6ED0F006A6632 /* JKL.swift */; };
 		AEF586B8BD00AF233319541F /* Pods_lew999_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A911BA5ECB02953ACFEECC46 /* Pods_lew999_Tests.framework */; };
 		F87EAEA9897A9C0ED3E918B7 /* Pods_lew999_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0056E6276465706F84BB179 /* Pods_lew999_Example.framework */; };
 /* End PBXBuildFile section */
@@ -45,7 +44,6 @@
 		77380E3C85DB86B8F62FCA0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		848DD7550436AE1E55E7A338 /* lew999.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = lew999.podspec; path = ../lew999.podspec; sourceTree = "<group>"; };
 		A911BA5ECB02953ACFEECC46 /* Pods_lew999_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lew999_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC9441DA28B6ED0F006A6632 /* JKL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKL.swift; sourceTree = "<group>"; };
 		D411B0D3650CAB0709F515FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DF1449BCF1F722548620810B /* Pods-lew999_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lew999_Tests.debug.xcconfig"; path = "Target Support Files/Pods-lew999_Tests/Pods-lew999_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E0056E6276465706F84BB179 /* Pods_lew999_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lew999_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,7 +81,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				AC9441DA28B6ED0F006A6632 /* JKL.swift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for lew999 */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -336,7 +333,6 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				AC9441DB28B6ED0F006A6632 /* JKL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
