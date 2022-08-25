@@ -42,7 +42,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		77380E3C85DB86B8F62FCA0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		848DD7550436AE1E55E7A338 /* lew999.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = lew999.podspec; path = ../lew999.podspec; sourceTree = "<group>"; };
+		848DD7550436AE1E55E7A338 /* lew999.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = lew999.podspec; path = ../lew999.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A911BA5ECB02953ACFEECC46 /* Pods_lew999_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lew999_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D411B0D3650CAB0709F515FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DF1449BCF1F722548620810B /* Pods-lew999_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lew999_Tests.debug.xcconfig"; path = "Target Support Files/Pods-lew999_Tests/Pods-lew999_Tests.debug.xcconfig"; sourceTree = "<group>"; };
