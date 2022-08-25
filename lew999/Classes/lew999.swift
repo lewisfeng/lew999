@@ -27,4 +27,3 @@ public class JKLabel : UILabel {
         layer.removeAllAnimations()
     }
 }
-

@@ -11,7 +11,7 @@
 		1478CDC59F211A4FFBE3626E80C7A6E6 /* Pods-lew999_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF32F41EBACF60F39C25173995F6EAF6 /* Pods-lew999_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F1CAE24524C992FAF385743828030FE /* Pods-lew999_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE58B9CF59836DF4DF0868F595CB320 /* Pods-lew999_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A85F6BD18B1511C9B795092CAE928E9 /* lew999-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA09D6DF26761C1D8A43046C0C7F9B5 /* lew999-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC4E528228B6DC970078C4CC /* lew999.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E528128B6DC970078C4CC /* lew999.swift */; };
+		ACDD352B28B6F48E007AF423 /* lew999.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDD352A28B6F48E007AF423 /* lew999.swift */; };
 		C21BF51CE60CA8C39DF4943E4C7E88B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E058E991DDC4E6AD9CE45D39C428AE8B /* Pods-lew999_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E73BA11739FFFB8E1C74AE140E519038 /* Pods-lew999_Example-dummy.m */; };
 		F268119FEC165B9927DA139ED321735D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -58,7 +58,7 @@
 		9A8CEAA99D229C483282A6BC97149863 /* Pods-lew999_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lew999_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A13F048182DAA3559679EAD95082396A /* Pods-lew999_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lew999_Example-Info.plist"; sourceTree = "<group>"; };
-		AC4E528128B6DC970078C4CC /* lew999.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lew999.swift; sourceTree = "<group>"; };
+		ACDD352A28B6F48E007AF423 /* lew999.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = lew999.swift; path = Pod/Classes/lew999.swift; sourceTree = "<group>"; };
 		BD3331E3A8DCDA828FD944C0D676C062 /* Pods-lew999_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lew999_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C50A1806F13218B3D4AE6405F5F78A4F /* Pods-lew999_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-lew999_Tests.modulemap"; sourceTree = "<group>"; };
 		C7970097263749E2B233E6C0A20C2E20 /* Pods-lew999_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-lew999_Example.modulemap"; sourceTree = "<group>"; };
@@ -103,6 +103,7 @@
 		0F3311E3D8B4C7CDA05025A532F8E985 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				ACDD352928B6F454007AF423 /* Classes */,
 				4B33D1F38D0B04FBA3FBA5C18F446EED /* lew999.podspec */,
 				FA136694BC7BDB467D3203ACEAF21FA0 /* LICENSE */,
 				D4AD4B65D7C00745A295BC4DA30BDEEC /* README.md */,
@@ -146,7 +147,6 @@
 		5EE75D3A73E0EE72DB38F1F4AC6F31B4 /* lew999 */ = {
 			isa = PBXGroup;
 			children = (
-				AC4E528128B6DC970078C4CC /* lew999.swift */,
 				0F3311E3D8B4C7CDA05025A532F8E985 /* Pod */,
 				97E1976DEEB63A68C55624F61C38E44A /* Support Files */,
 			);
@@ -184,6 +184,14 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/lew999";
+			sourceTree = "<group>";
+		};
+		ACDD352928B6F454007AF423 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ACDD352A28B6F48E007AF423 /* lew999.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		B03492E1E09E72AA896A970A065BD50E /* Products */ = {
@@ -372,7 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC4E528228B6DC970078C4CC /* lew999.swift in Sources */,
+				ACDD352B28B6F48E007AF423 /* lew999.swift in Sources */,
 				F8D672B6DF634A98A75327CA8047C2A0 /* lew999-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
