@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'lew999'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.swift_version    = '4.1'
   s.summary          = 'But wait you, if you’ve been following the instructions step by step, technically there isn’t a project at that URL yet.'
 
